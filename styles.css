@@ -9,11 +9,13 @@
 .container {
     display: flex;
     align-items: center;
+ 
   }
   
   img {
-    float: left;
-    max-height: 500px;
+    
+    max-width: 100%;
+    height: auto;
   }
   
   .content {
@@ -93,3 +95,25 @@ h1 {
   font-family: 'Norse Bold', Arial, sans-serif;
 }
 
+@media (max-width:600px){
+  input[type=text],
+  input[type=password],
+  input[type=tel],
+  input[type=email] {
+      width: auto;
+      height :auto
+
+    }
+    img, .image-attribution{
+      visibility: hidden; 
+     
+    }
+   
+
+}
+@media (max-width:1024px){
+  img, .image-attribution{
+    visibility: hidden; 
+   
+  } 
+}
