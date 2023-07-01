@@ -1,0 +1,16 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "![signup](https://github.com/cybermicheal47/play/assets/65826184/469dfa0c-4674-4734-8804-079ed2ec7dd1)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://cybermicheal47.github.io/signup",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
